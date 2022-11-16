@@ -1,0 +1,22 @@
+{
+  "name": "dherault-aliases",
+  "version": "0.0.0",
+  "description": "A npx package to append my common aliases to ~/.zshrc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dherault/dherault-aliases.git"
+  },
+  "author": "David Hérault <dherault@gmail.com> (https://github.com/dherault)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dherault/dherault-aliases/issues"
+  },
+  "homepage": "https://github.com/dherault/dherault-aliases#readme",
+  "bin": {
+    "dherault-aliases": "index.js"
+  }
+}
