@@ -25,13 +25,13 @@ alias gpf="git push --force-with-lease"
 alias gp="git push"
 alias gs="git status"
 alias n="npm start"
-alias d="npm run dev"
 alias t="npm test"
+alias d="npm run dev"
 alias b="npm run build"
-alias w="npm run start:watch"
+alias w="npm run watch"
 alias i="npm i"
-alias patch="npm version patch"
-alias s="npm run serve"
+alias fps-on="/bin/launchctl setenv MTL\_HUD\_ENABLED 1"
+alias fps-off="/bin/launchctl setenv MTL\_HUD\_ENABLED 0"
 `
 
 const zshrcPath = path.resolve(process.env.HOME, '.zshrc')
