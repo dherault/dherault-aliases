@@ -24,6 +24,7 @@ alias glog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold 
 alias grc="git add . -A && git rebase --continue"
 alias gpf="git push --force-with-lease"
 alias gp="git push"
+alias gpl="git pull"
 alias gs="git status"
 alias n="npm start"
 alias t="npm test"
