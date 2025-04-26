@@ -14,6 +14,11 @@ function commit() {
   fi
 }
 
+function aicommit() {
+  git add . -A
+  ai-commit
+}
+
 function amend() {
   git add . -A
   git commit --amend --no-edit
