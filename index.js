@@ -48,3 +48,4 @@ const zshrc = fs.readFileSync(zshrcPath, 'utf8')
 fs.writeFileSync(zshrcPath, zshrc + aliases)
 
 execSync(`source ${zshrcPath}`, { shell: '/bin/zsh' })
+execSync('npm i -g ai-commit', { shell: '/bin/zsh' })
