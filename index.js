@@ -4,6 +4,7 @@ const path = require('node:path')
 const { execSync } = require('node:child_process')
 
 const aliases = `
+
 function commit() {
   git add . -A
 
@@ -40,8 +41,11 @@ alias i="npm i"
 alias l="npm run lint"
 alias lb="npm run lint && npm run build"
 alias conflicts="git diff --name-only --diff-filter=U --relative"
-alias fps-on="/bin/launchctl setenv MTL\_HUD\_ENABLED 1"
-alias fps-off="/bin/launchctl setenv MTL\_HUD\_ENABLED 0"
+alias fps-on="/bin/launchctl setenv MTL_HUD_ENABLED 1"
+alias fps-off="/bin/launchctl setenv MTL_HUD_ENABLED 0"
+alias da="npm run dev:app"
+alias de="npm run dev:emulators"
+alias db="npm run dev:backend"
 `
 
 const zshrcPath = path.resolve(process.env.HOME, '.zshrc')
