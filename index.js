@@ -45,7 +45,8 @@ alias fps-on="/bin/launchctl setenv MTL_HUD_ENABLED 1"
 alias fps-off="/bin/launchctl setenv MTL_HUD_ENABLED 0"
 alias da="npm run dev:app"
 alias de="npm run dev:emulators"
-alias db="npm run dev:backend"
+alias ds="npm run dev:backend"
+alias db="npm run dev:database"
 `
 
 const zshrcPath = path.resolve(process.env.HOME, '.zshrc')
