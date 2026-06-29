@@ -46,6 +46,7 @@ alias fps-off="/bin/launchctl setenv MTL_HUD_ENABLED 0"
 alias da="npm run dev:app"
 alias de="npm run dev:emulators"
 alias ds="npm run dev:backend"
+alias dss="npm run dev:stripe"
 alias db="npm run dev:database"
 `
 
