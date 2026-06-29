@@ -1,6 +1,6 @@
 {
   "name": "dherault-aliases",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A npx package to append my common aliases to ~/.zshrc",
   "main": "index.js",
   "scripts": {
