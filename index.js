@@ -48,6 +48,7 @@ alias de="npm run dev:emulators"
 alias ds="npm run dev:backend"
 alias dss="npm run dev:stripe"
 alias db="npm run dev:database"
+alias dg="npm run dev:codegen"
 `
 
 const zshrcPath = path.resolve(process.env.HOME, '.zshrc')
