@@ -45,12 +45,15 @@ alias ltb="npm run lint && npm run test && npm run build"
 alias conflicts="git diff --name-only --diff-filter=U --relative"
 alias fps-on="/bin/launchctl setenv MTL_HUD_ENABLED 1"
 alias fps-off="/bin/launchctl setenv MTL_HUD_ENABLED 0"
-alias da="npm run dev:app"
+alias dw="npm run dev:web"
 alias de="npm run dev:emulators"
 alias ds="npm run dev:backend"
-alias dss="npm run dev:stripe"
+alias dx="npm run dev:stripe"
 alias db="npm run dev:database"
 alias dg="npm run dev:codegen"
+alias ggr="git checkout master && git pull"
+alias ggm="git checkout main && git pull"
+alias ggd="git checkout dev && git pull"
 `
 
 const zshrcPath = path.resolve(process.env.HOME, '.zshrc')
